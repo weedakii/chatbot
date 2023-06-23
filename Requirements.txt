@@ -2,4 +2,3 @@ tensorflow
 nltk
 flask
 keras
-pickle
