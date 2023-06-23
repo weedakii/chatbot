@@ -68,6 +68,8 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 app.static_folder = 'static'
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
+
 
 @app.route("/")
 def home():
