@@ -103,8 +103,8 @@
         // Bot Response
         $.get("/get", { msg: rawText }).done(function (data) {
           console.log(rawText);
-          console.log(data);
-          const msgText = data;
+          console.log(data.msg);
+          const msgText = data.msg;
           appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
         });
       }

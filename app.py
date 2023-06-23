@@ -80,9 +80,9 @@ def get_bot_response():
     userText = request.args.get('msg')
     return chatbot_response(userText)
 
-@app.route('/api/ask', methods=['POST'])
-def get_bot_response():
-    userText = request.json['message']
+@app.route('/test', methods=['POST'])
+def ask():
+    userText = request.json['msg']
     return chatbot_response(userText)
 
 
