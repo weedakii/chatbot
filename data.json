@@ -1,0 +1,89 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [ "Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day" ],
+            "responses": [ "Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [ "Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time" ],
+            "responses": [ "See you!", "Have a nice day", "Bye! Come back again soon." ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [ "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me" ],
+            "responses": [ "Happy to help!", "Any time!", "My pleasure" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [ "Sorry, can't understand you", "Please give me more info", "Not sure I understand" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "options",
+            "patterns": [ "How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered" ],
+            "responses": [ "I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies" ],
+            "context": [ "" ]
+        },
+        {
+            "tag": "transportation_payment",
+            "patterns": [
+                "How do I pay for transportation?",
+                "What payment methods are accepted for transportation?",
+                "Can I use a credit card to pay for transportation?",
+                "Are there mobile payment options for transportation?",
+                "Do I need cash to pay for transportation?",
+                "Are there any discounts or promotions available for transportation payments?",
+                "Is there a specific payment app for transportation?",
+                "What happens if I don't have exact change for transportation?",
+                "Can I use a transportation card for payment?",
+                "Are there any contactless payment options for transportation?"
+            ],
+            "responses": [
+                "Transportation payments can be made using various methods such as cash, credit cards, mobile payment apps, and transportation cards.",
+                "Most transportation systems accept credit cards, and some even offer contactless payment options for added convenience.",
+                "Using mobile payment apps like Apple Pay, Google Pay, or specific transportation apps, you can pay for transportation using your smartphone.",
+                "While cash is accepted for transportation payments, it's recommended to carry alternative payment options for convenience.",
+                "Check if there are any discounts or promotions available for transportation payments, as it can help you save money on fares.",
+                "Some cities may have dedicated payment apps for transportation, allowing you to easily manage and pay for your rides.",
+                "If you don't have exact change, some transportation systems may provide change cards or vouchers for the remaining amount.",
+                "Transportation cards, like metro cards or smart cards, can be used for payment and often offer benefits such as discounted fares.",
+                "Many transportation systems have contactless payment options, allowing you to tap your card or smartphone for quick and seamless payments."
+            ],
+            "context": [ "transportation_payment" ]
+        },
+        {
+            "tag": "payment_operations",
+            "patterns": [
+                "How much does transportation cost?",
+                "Are there different fares for different transportation modes?",
+                "Can I pay for transportation in advance?",
+                "Is there a monthly pass available for transportation?",
+                "Are there any penalties for not paying the transportation fare?",
+                "Can I get a refund for unused transportation tickets?",
+                "How can I check my transportation payment history?",
+                "What should I do if I encounter issues with my transportation payment?",
+                "Is there a customer support hotline for transportation payment inquiries?",
+                "Are there any restrictions on using certain payment methods for transportation?"
+            ],
+            "responses": [
+                "Transportation costs vary depending on the distance traveled, the transportation mode, and the specific fares set by the transportation authority.",
+                "Different transportation modes, such as buses, trains, and subways, may have different fare structures. It's best to check the official website or inquire at the transportation station.",
+                "Some transportation systems offer the option to pay in advance, either through online platforms or purchasing prepaid tickets or cards.",
+                "Many transportation systems provide monthly passes or season tickets for frequent travelers, which can offer cost savings compared to individual fares.",
+                "Failure to pay the transportation fare or using fraudulent means of payment may result in penalties, fines, or legal consequences depending on local regulations.",
+                "Refund policies for transportation tickets vary depending on the transportation authority. It's advisable to check the refund terms and conditions or contact customer support.",
+                "Transportation payment history can often be accessed through online accounts or mobile apps provided by the transportation authority. Alternatively, customer support can assist you in retrieving payment information.",
+                "If you encounter any issues with your transportation payment, such as a failed transaction or incorrect charges, reach out to the transportation authority's customer support for assistance.",
+                "Many transportation systems have dedicated customer support hotlines or contact channels to handle payment-related inquiries and provide assistance to customers.",
+                "Certain payment methods may have restrictions or limitations when it comes to using them for transportation payments. It's advisable to check with the transportation authority or the payment provider for more information."
+            ],
+            "context": [ "payment_operations" ]
+        }
+    ]
+}
