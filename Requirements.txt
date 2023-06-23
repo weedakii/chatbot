@@ -2,3 +2,4 @@ tensorflow
 nltk
 flask
 keras
+gunicorn
